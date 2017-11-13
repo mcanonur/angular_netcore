@@ -1,0 +1,3 @@
+<a class="navbar-brand pull-right" [routerLink]="['/login']" *ngIf="!isLoggedIn">Login</a>
+
+<span *ngIf="isLoggedIn">{{email}}</span>
